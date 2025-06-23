@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Muhammad Murad Abbasi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MURAD</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Academic and professional projects showcasing my skills</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="project-filter">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="robotics">Robotics</button>
+                <button data-filter="networking">Networking</button>
+                <button data-filter="iot">IoT</button>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card" data-category="networking">
+                    <div class="project-image">
+                        <img src="Project pic.PNG" alt="Secure Inter-Campus Network">
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Inter-Campus Network</h3>
+                        <p>Designed and implemented a secure multi-campus network system for Bahria University using static IP addressing, OSPF routing, and ACLs.</p>
+                        <div class="project-tech">
+                            <span>Cisco Packet Tracer</span>
+                            <span>OSPF</span>
+                            <span>ACLs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Details</a>
+                            <span class="award-badge"><i class="fas fa-trophy"></i> Award Winner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="robotics">
+                    <div class="project-image">
+                        <img src="images/fire-robot.jpg" alt="Fire Fighter Robot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Fire Fighter Robot</h3>
+                        <p>Autonomous fire-fighting robot with sensor-based fire detection and water-spray system.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Sensors</span>
+                            <span>C++</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="robotics">
+                    <div class="project-image">
+                        <img src="images/robotic-arm.jpg" alt="Robotic Arm">
+                    </div>
+                    <div class="project-content">
+                        <h3>4-DOF Robotic Arm</h3>
+                        <p>Precision robotic arm using Arduino UNO, servo motors, and PWM driver.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Fusion 360</span>
+                            <span>MATLAB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <img src="images/security-system.jpg" alt="Home Security System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Home Security System</h3>
+                        <p>Logic gate-based security system that alerts when windows/doors are breached.</p>
+                        <div class="project-tech">
+                            <span>Logic Gates</span>
+                            <span>Digital Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
